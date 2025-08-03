@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-navigation {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    padding: 10px 20px;
+    background: linear-gradient(165deg, #10716a, #0ebda5);
+    min-height: 75px;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.3)
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content:left;
+  gap: 40px;
+  padding-left: 40px;
+}
+
+.logo {
+    background-image: url('../assets/map-svgrepo-com.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    justify-self: center;
+    transition: transform 0.3s ease-out, filter 0.3s ease-out;
+    cursor: pointer;
+}
+
+.logo:hover {
+    filter: drop-shadow(2px 4px 5px rgba(0, 0, 0, 0.4));
+    transform: scale(1.05);
+}
+
+.nav-button {
+    color: white;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font: 1.7rem 'Quicksand', sans-serif;
+    transition: transform 0.3s ease-out, text-shadow 0.3s ease-out;
+}
+
+.nav-button:hover {
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
