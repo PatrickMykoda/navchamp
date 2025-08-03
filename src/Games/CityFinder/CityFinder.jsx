@@ -1,10 +1,12 @@
+import './CityFinder.css';
+import Instruction from './Instruction/Instruction.jsx'
+import GoogleMap from './GoogleMap/GoogleMap.jsx';
 
 const CityFinder = () => {
   return (
-    <div id="question-box">
-      <span id="question-text"></span>
-      <button id="next-button" className="hide">Next</button>
-      <button id="tip-button">Get tip</button>
+    <div id="city-finder">
+        <Instruction />
+        <GoogleMap />
     </div>
   );
 }

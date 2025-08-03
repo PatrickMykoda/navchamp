@@ -1,0 +1,6 @@
+#city-finder {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    width: 100%;
+}
