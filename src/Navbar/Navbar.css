@@ -24,7 +24,7 @@
 }
 
 .logo {
-    background-image: url('../assets/map-svgrepo-com.svg');
+    background-image: url('./../../public/map-svgrepo-com.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
